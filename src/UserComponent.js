@@ -1,7 +1,7 @@
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/styles';
 import UserGrid from './UserGrid';
@@ -44,7 +44,7 @@ function UserComponent() {
         </Typography>
         <div className={useStyles().root}>
           <Paper className={useStyles().root} square={false}>
-            <UserGrid useStyles={useStyles} />
+            <UserGrid />
           </Paper>
         </div>
       </Container>

@@ -1,0 +1,8 @@
+1. First 50 users must be displayed on first boot (Done)
+2. The application should not slow down even when there are more than 1000 users on the screen (Done)
+3. Carry out lazy load loading when the scroll approaches the bottom of the screen. Uploading is carried out by 50 users
+4. If the person's name does not fit into the borders of the screen, cut it off with ellipsis (Done)
+5. All user avatars at any given time must be at the same vertical level. After loading new users and in the case when their avatars are to the right of the previous ones, the avatars of previous users must be smoothly placed on the level with new ones. (Done)
+6. By clicking on the user, we can highlight him in purple
+7. The work performed must be visually close to the layout (chapter "Layout") indicated below.
+8. As an image of the user, it is necessary to show the helmet with the color that he once chose. The SVG image of the helmet is available in the repository. (Done)
